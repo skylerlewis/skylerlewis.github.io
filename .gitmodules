@@ -1,0 +1,3 @@
+[submodule "yolo-basin"]
+	path = yolo-basin
+	url = https://github.com/skylerlewis/yolo-basin
