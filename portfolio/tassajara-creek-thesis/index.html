@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-04-30">
+
+<title>Riparian Restoration and Flood Conveyance: Lessons from Lower Tassajara Creek – Skyler Lewis</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2da0905f50004d1fc36047525c1a7764.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-48b996e53db2e3983ff717da24848af8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- Search Console verification, carried over from WordPress -->
+<meta name="google-site-verification" content="WF4ciKDluzrXF5PhbASE_jTG_mRgGBi087xzdShwqaA">
+<!-- Fonts: Libre Franklin, Libre Baskerville, Courier Prime -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&amp;family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap">
+
+
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Skyler Lewis</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../project-type/hydro/index.html"> 
+<span class="menu-text">Ecohydrology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../project-type/geospatial/index.html"> 
+<span class="menu-text">Geospatial</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../project-type/design/index.html"> 
+<span class="menu-text">Design</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../project-type/photo/index.html"> 
+<span class="menu-text">Photography</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../portfolio/index.html"> 
+<span class="menu-text">All Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/cv/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../archive/index.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/skylerlewis"> 
+<span class="menu-text">LinkedIn</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Riparian Restoration and Flood Conveyance: Lessons from Lower Tassajara Creek</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Design</div>
+    <div class="quarto-category">Ecohydrology</div>
+    <div class="quarto-category">Geospatial</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 30, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>Masters Thesis in Landscape Architecture and Environmental Planning, UC Berkeley</strong></p>
+<p><a href="https://digicoll.lib.berkeley.edu/record/277087" class="wp-block-button__link wp-element-button">View/Download PDF via UC Berkeley Library</a></p>
+<blockquote class="blockquote">
+<p>I and the arroyo are one, a single motion of water and wood.<br>
+I and the arroyo and the kingfisher know the same old words.<br>
+My roots touch cold underworlds; they sing of ancient winter floods<br>
+and long summers dancing in full leaf.</p>
+<p><a href="https://baynature.org/article/western-sycamores-speak-older-california/" data-type="link" data-id="https://baynature.org/article/western-sycamores-speak-older-california/" target="_blank" rel="noreferrer noopener">Sylvia Linsteadt, 2017</a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Paradoxically, hydraulic inefficiency is a hallmark of a healthy riverscape.</p>
+<p><a href="https://doi.org/10.1016/j.ancene.2022.100334" data-type="link" data-id="https://doi.org/10.1016/j.ancene.2022.100334" target="_blank" rel="noreferrer noopener">Skidmore &amp; Wheaton, 2022</a></p>
+</blockquote>
+<figure class="gallery single figure">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/i01-01-W24_L60_color_inkjet_20lb_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:0.4000"><img src="../../img/portfolio/tassajara-creek-thesis/i01-01-W24_L60_color_inkjet_20lb_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/i01-01-W24_L60_color_inkjet_20lb_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/i01-01-W24_L60_color_inkjet_20lb_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/i01-01-W24_L60_color_inkjet_20lb_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="1200" loading="lazy" decoding="async" alt="" class="figure-img"></a>
+</figure>
+<section id="the-amador-livermore-valley" class="level2">
+<h2 class="anchored" data-anchor-id="the-amador-livermore-valley">The Amador-Livermore Valley</h2>
+<div class="gallery tiled">
+<div class="tile-row">
+<div class="tile-col" style="--ar:0.7500">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/g01-01-W24_H18_color_inkjet_20lb_Page_1_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:0.7500"><img src="../../img/portfolio/tassajara-creek-thesis/g01-01-W24_H18_color_inkjet_20lb_Page_1_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/g01-01-W24_H18_color_inkjet_20lb_Page_1_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/g01-01-W24_H18_color_inkjet_20lb_Page_1_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/g01-01-W24_H18_color_inkjet_20lb_Page_1_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 25vw, 210px" width="480" height="640" loading="lazy" decoding="async" alt=""></a>
+</div>
+<div class="tile-col" style="--ar:0.7500">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/g01-02-W12_H18_color_inkjet_20lb_Page_1_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:1.5000"><img src="../../img/portfolio/tassajara-creek-thesis/g01-02-W12_H18_color_inkjet_20lb_Page_1_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/g01-02-W12_H18_color_inkjet_20lb_Page_1_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/g01-02-W12_H18_color_inkjet_20lb_Page_1_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/g01-02-W12_H18_color_inkjet_20lb_Page_1_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 25vw, 210px" width="480" height="320" loading="lazy" decoding="async" alt=""></a>
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/g01-03-W12_H18_color_inkjet_20lb_Page_2_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:1.5000"><img src="../../img/portfolio/tassajara-creek-thesis/g01-03-W12_H18_color_inkjet_20lb_Page_2_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/g01-03-W12_H18_color_inkjet_20lb_Page_2_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/g01-03-W12_H18_color_inkjet_20lb_Page_2_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/g01-03-W12_H18_color_inkjet_20lb_Page_2_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 25vw, 210px" width="480" height="320" loading="lazy" decoding="async" alt=""></a>
+</div>
+<div class="tile-col" style="--ar:1.5000">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/g01-04-W12_H18_color_inkjet_20lb_Page_3_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:1.5000"><img src="../../img/portfolio/tassajara-creek-thesis/g01-04-W12_H18_color_inkjet_20lb_Page_3_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/g01-04-W12_H18_color_inkjet_20lb_Page_3_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/g01-04-W12_H18_color_inkjet_20lb_Page_3_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/g01-04-W12_H18_color_inkjet_20lb_Page_3_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 50vw, 420px" width="480" height="320" loading="lazy" decoding="async" alt=""></a>
+</div>
+</div>
+</div>
+</section>
+<section id="hydrogeomorphic-template-ã-land-use-planning" class="level2">
+<h2 class="anchored" data-anchor-id="hydrogeomorphic-template-ã-land-use-planning">Hydrogeomorphic Template Ã— Land Use Planning</h2>
+<figure class="compare figure" style="--ar:1.3333">
+<div class="compare-frame">
+<img class="compare-after figure-img" src="../../img/portfolio/tassajara-creek-thesis/cmp01-after-1024.webp" srcset="../../img/portfolio/tassajara-creek-thesis/cmp01-after-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/cmp01-after-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/cmp01-after-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="360" loading="lazy" decoding="async" alt="After">
+<img class="compare-before figure-img" src="../../img/portfolio/tassajara-creek-thesis/cmp01-before-1024.webp" srcset="../../img/portfolio/tassajara-creek-thesis/cmp01-before-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/cmp01-before-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/cmp01-before-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="360" loading="lazy" decoding="async" alt="Before">
+<span class="compare-label before" aria-hidden="true">Before</span><span class="compare-label after" aria-hidden="true">After</span>
+<span class="compare-handle" aria-hidden="true"></span>
+<input class="compare-range" type="range" min="0" max="100" value="50" step="0.5" aria-label="Before and after comparison position">
+</div>
+</figure>
+</section>
+<section id="historical-timeline" class="level2">
+<h2 class="anchored" data-anchor-id="historical-timeline">Historical Timeline</h2>
+<figure class="gallery single figure">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/i02-01-W36_L74_color_laser_20lb_72dpi-1-1680.webp" data-gallery="post" data-title="" style="--ar:2.0601"><img src="../../img/portfolio/tassajara-creek-thesis/i02-01-W36_L74_color_laser_20lb_72dpi-1-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/i02-01-W36_L74_color_laser_20lb_72dpi-1-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/i02-01-W36_L74_color_laser_20lb_72dpi-1-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/i02-01-W36_L74_color_laser_20lb_72dpi-1-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="233" loading="lazy" decoding="async" alt="" class="figure-img"></a>
+</figure>
+</section>
+<section id="channel-evolution-timeline" class="level2">
+<h2 class="anchored" data-anchor-id="channel-evolution-timeline">Channel Evolution Timeline</h2>
+<figure class="gallery single figure">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/i03-01-W42_H18_color_inkjet_20lb_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:2.4121"><img src="../../img/portfolio/tassajara-creek-thesis/i03-01-W42_H18_color_inkjet_20lb_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/i03-01-W42_H18_color_inkjet_20lb_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/i03-01-W42_H18_color_inkjet_20lb_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/i03-01-W42_H18_color_inkjet_20lb_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="199" loading="lazy" decoding="async" alt="" class="figure-img"></a>
+</figure>
+</section>
+<section id="riparian-vegetation-growth" class="level2">
+<h2 class="anchored" data-anchor-id="riparian-vegetation-growth">Riparian Vegetation Growth</h2>
+<figure class="gallery single figure">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/i04-01-W24_H36_color_inkjet_20lb_Page_1_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:0.6667"><img src="../../img/portfolio/tassajara-creek-thesis/i04-01-W24_H36_color_inkjet_20lb_Page_1_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/i04-01-W24_H36_color_inkjet_20lb_Page_1_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/i04-01-W24_H36_color_inkjet_20lb_Page_1_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/i04-01-W24_H36_color_inkjet_20lb_Page_1_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="720" loading="lazy" decoding="async" alt="" class="figure-img"></a>
+</figure>
+</section>
+<section id="channel-floodplain-evolution" class="level2">
+<h2 class="anchored" data-anchor-id="channel-floodplain-evolution">Channel &amp; Floodplain Evolution</h2>
+<figure class="gallery single figure">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/i05-01-W24_H36_color_inkjet_20lb_Page_2_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:0.6667"><img src="../../img/portfolio/tassajara-creek-thesis/i05-01-W24_H36_color_inkjet_20lb_Page_2_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/i05-01-W24_H36_color_inkjet_20lb_Page_2_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/i05-01-W24_H36_color_inkjet_20lb_Page_2_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/i05-01-W24_H36_color_inkjet_20lb_Page_2_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="720" loading="lazy" decoding="async" alt="" class="figure-img"></a>
+</figure>
+</section>
+<section id="modeling-flood-conveyance" class="level2">
+<h2 class="anchored" data-anchor-id="modeling-flood-conveyance">Modeling Flood Conveyance</h2>
+<figure class="gallery single figure">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/i06-01-W24_H36_color_inkjet_20lb_Page_3_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:0.6667"><img src="../../img/portfolio/tassajara-creek-thesis/i06-01-W24_H36_color_inkjet_20lb_Page_3_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/i06-01-W24_H36_color_inkjet_20lb_Page_3_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/i06-01-W24_H36_color_inkjet_20lb_Page_3_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/i06-01-W24_H36_color_inkjet_20lb_Page_3_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="720" loading="lazy" decoding="async" alt="" class="figure-img"></a>
+</figure>
+</section>
+<section id="winter-2022-23-storms" class="level2">
+<h2 class="anchored" data-anchor-id="winter-2022-23-storms">Winter 2022-23 Storms</h2>
+<figure class="gallery single figure">
+<a class="glb" href="../../img/portfolio/tassajara-creek-thesis/i07-01-W24_H36_color_inkjet_20lb_Page_4_72dpi-1680.webp" data-gallery="post" data-title="" style="--ar:0.6667"><img src="../../img/portfolio/tassajara-creek-thesis/i07-01-W24_H36_color_inkjet_20lb_Page_4_72dpi-480.webp" srcset="../../img/portfolio/tassajara-creek-thesis/i07-01-W24_H36_color_inkjet_20lb_Page_4_72dpi-480.webp 480w, ../../img/portfolio/tassajara-creek-thesis/i07-01-W24_H36_color_inkjet_20lb_Page_4_72dpi-1024.webp 1024w, ../../img/portfolio/tassajara-creek-thesis/i07-01-W24_H36_color_inkjet_20lb_Page_4_72dpi-1680.webp 1680w" sizes="(max-width: 900px) 100vw, 840px" width="480" height="720" loading="lazy" decoding="async" alt="" class="figure-img"></a>
+</figure>
+
+
+</section>
+
+</main> <!-- /main -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+
+<script>
+
+  if (document.querySelector(".glb")) GLightbox({ selector: ".glb", loop: true });
+
+
+
+  // before/after sliders
+
+  document.querySelectorAll(".compare-range").forEach((r) => {
+
+    const frame = r.closest(".compare-frame");
+
+    const set = () => frame.style.setProperty("--pos", r.value + "%");
+
+    r.addEventListener("input", set);
+
+    set();
+
+  });
+
+
+
+  // Masonry for listing grids: each card goes in the shortest column, in order.
+
+  document.querySelectorAll(".quarto-listing-container-grid .list.grid").forEach((list) => {
+
+    const gap = 24;
+
+    const layout = () => {
+
+      const items = [...list.querySelectorAll(".quarto-grid-item")].filter((el) => el.offsetParent !== null || el.style.position === "absolute");
+
+      const w = list.clientWidth;
+
+      const cols = w >= 768 ? 3 : w >= 480 ? 2 : 1;
+
+      const cw = (w - gap * (cols - 1)) / cols;
+
+      const heights = new Array(cols).fill(0);
+
+      items.forEach((el) => {
+
+        el.style.width = cw + "px";
+
+        const c = heights.indexOf(Math.min(...heights));
+
+        el.style.left = c * (cw + gap) + "px";
+
+        el.style.top = heights[c] + "px";
+
+        heights[c] += el.offsetHeight + gap;
+
+      });
+
+      list.style.height = Math.max(...heights) - gap + "px";
+
+    };
+
+    list.classList.add("is-masonry");
+
+    layout();
+
+    list.querySelectorAll("img").forEach((img) => img.addEventListener("load", layout));
+
+    // known cover ratios (listing-aspect.json) give lazy images their height before they load
+
+    const lib = document.querySelector('script[src*="site_libs/"]');
+
+    const base = lib ? lib.getAttribute("src").split("site_libs/")[0] : "./";
+
+    fetch(base + "listing-aspect.json").then((r) => r.json()).then((ratios) => {
+
+      list.querySelectorAll("img.thumbnail-image").forEach((img) => {
+
+        const r = ratios[img.getAttribute("src").replace(/^(\.{1,2}\/)+/, "")];
+
+        if (r) img.style.aspectRatio = r;
+
+      });
+
+      layout();
+
+    }).catch(() => {});
+
+    window.addEventListener("resize", layout);
+
+    window.addEventListener("load", layout);
+
+  });
+
+
+
+  // Link title-block categories to their landing pages (terms.json); card categories just lose the filter click.
+
+  document.querySelectorAll(".listing-category").forEach((el) => el.removeAttribute("onclick"));
+
+  const cats = document.querySelectorAll(".quarto-category");
+
+  if (cats.length) {
+
+    const lib = document.querySelector('script[src*="site_libs/"]');
+
+    const root = lib ? lib.getAttribute("src").split("site_libs/")[0] : "./";
+
+    fetch(root + "terms.json").then((r) => r.json()).then((terms) => {
+
+      cats.forEach((el) => {
+
+        const name = el.textContent.trim();
+
+        if (!terms[name]) return;
+
+        const a = document.createElement("a");
+
+        a.href = root + terms[name] + "/";
+
+        a.className = el.className;
+
+        a.textContent = name;
+
+        el.replaceWith(a);
+
+      });
+
+    }).catch(() => {});
+
+  }
+
+</script>
+
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/example\.com\/");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Skyler Lewis</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Built with <a href="https://quarto.org">Quarto</a>, based on the <a href="https://wordpress.org/themes/illustratr/">Illustratr</a> WordPress theme by Automattic.</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/skylerlewis">
+<p>LinkedIn</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

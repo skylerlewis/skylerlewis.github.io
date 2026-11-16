@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO(D3): match website.site-url in _quarto.yml
+Sitemap: https://example.com/sitemap.xml
