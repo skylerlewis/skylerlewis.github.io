@@ -85,6 +85,10 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/portfolio/index.html",
     "items": []
   },
@@ -94,10 +98,6 @@
   },
   {
     "listing": "/project-type/hydro/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
     "items": []
   }
 ]
